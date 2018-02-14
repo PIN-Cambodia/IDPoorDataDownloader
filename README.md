@@ -34,5 +34,5 @@ This does not require an ESRI installation or the ArcPy module. PyShp is impleme
      dataset that caused this. (Object ID 569 and 1378).
 
   -  The timeout period for authentication appears to be 30 minutes.
-     to circumvent this, the script re-authenticates every 300 requests. 
+     To circumvent this, the script re-authenticates every 300 requests. 
 --------------------------------------------------------------------------------------------
