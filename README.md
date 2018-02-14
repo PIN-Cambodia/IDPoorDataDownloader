@@ -10,7 +10,7 @@ This does not require an ESRI installation or the ArcPy module. PyShp is impleme
  AUTHOR: Blake Gardiner for People in Need  - blake.gardiner@peopleinneed.cz
 
 # Parameters 
-             -Search code for "User Parameters" for areas
+             - Search code for "User Parameters" for areas
                where input parameters can be configured.
 # Dependencies
             - Python 3.7 - recommend to also install 'pip package installer'
@@ -19,11 +19,9 @@ This does not require an ESRI installation or the ArcPy module. PyShp is impleme
                      "pip install requests"
             - 'pyShp' - see https://pypi.python.org/pypi/pyshp 
                      "pip install pyshp"
-# About
-
 
 # Limitations
-    At this point, the script only works for IDPOOR13 report. Other reports will 
+    - At this point, the script only works for IDPOOR13 report. Other reports will 
     fail.
 --------------------------------------------------------------------------------------------
 # Known Issues
