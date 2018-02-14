@@ -1,31 +1,5 @@
 # IDPoorDataDownloader
 --------------------------------------------------------------------------------------------
-Basic Architecture / Script Function List
-
-                           +-------------------------------------------------------------------------------------------+
-+---------------------+    | +----------------+                                                                        |
-|Website REST Endpoint+----> |python_script.py|                                                                        |
-+---------------------+    | +----------------+                                                                        |
-                           |                                                                                           |
-                           |  main()                                                                                   |
-                           |     preStart()                                                                            |
-     +----------------+    |     authenticateMe(authUrl)                                                               |
-     |Source Shapefile+---->     retrieveJSON(requestURL)                                                              |
-     +----------------+    |     dumpJSON(JSONObject)                                                                  |
-                           |     addFields2ShapeFile(targetSHP,newFieldName,fieldType,fieldSize,defaultValue,outputSHP)|
-                           |     summarizeJSON(communeID, sourceJSONFile)                                              |
-                           |     populateFieldShapeFile(communeID,targetShapeFile,targetFieldIndex,value)              |
-                           |     cleanupWorkArea()                                                                     |
-                           |                                                                                           |
-                           +--------+-------------------+--------------------------------------------------------------+
-                                    |                   |
-                                    |                   |
-                                    |                   |
-                           +--------v-------+    +------v------+
-                           |Target Shapefile|    | Logfile.log |
-                           +----------------+    +-------------+
-
-
 
 This is a standalone python script for downloading JSON data from a web api, matching records within an ESRI shapefile, calculating some statistics, and generating a new ESRI shapefile with these statistics appended. 
 
