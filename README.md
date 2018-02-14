@@ -5,6 +5,8 @@ This is a standalone python script for downloading JSON data from a web api, mat
 
 This does not require an ESRI installation or the ArcPy module. PyShp is implemented instead to allow for use in non ESRI-stack envrionments.
 
+[Click to see script diagram](/Home.asciidoc)
+
 --------------------------------------------------------------------------------------------
  
  - download_idpoor.py
