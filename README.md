@@ -5,6 +5,7 @@ This is a standalone python script for downloading JSON data from a web api, mat
 This does not require an ESRI installation or the ArcPy module. PyShp is implemented instead to allow for use in non ESRI-stack envrionments.
 
 --------------------------------------------------------------------------------------------
+ 
  download_idpoor.py
  VERSION: 1.0.0 - January 5, 2018
  AUTHOR: Blake Gardiner for People in Need  - blake.gardiner@peopleinneed.cz
@@ -25,12 +26,12 @@ This does not require an ESRI installation or the ArcPy module. PyShp is impleme
     fail.
 --------------------------------------------------------------------------------------------
 # Known Issues
-  *  Some issue with the shapefile dataset when Khmer text is in the commune name or other
+  - Some issue with the shapefile dataset when Khmer text is in the commune name or other
      fields, causes issues with the output dataset, stripping ID's and editing the wrong fields.
      To fix, remove all Khmer text (some may still look like English script, but deleting and
      re-writing it appears to work. There were two instances in the khm_admbnda_adm3_gov.shp 
      dataset that caused this. (Object ID 569 and 1378).
 
-  *  The timeout period for authentication appears to be 30 minutes.
+  -  The timeout period for authentication appears to be 30 minutes.
      to circumvent this, the script re-authenticates every 300 requests. 
 --------------------------------------------------------------------------------------------
