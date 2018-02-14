@@ -4,28 +4,29 @@ This is a standalone python script for downloading JSON data from a web api, mat
 
 This does not require an ESRI installation or the ArcPy module. PyShp is implemented instead to allow for use in non ESRI-stack envrionments.
 
-#--------------------------------------------------------------------------------------------
-# download_idpoor.py
-# VERSION: 1.0.0 - January 5, 2018
-# AUTHOR: Blake Gardiner for People in Need  - blake.gardiner@peopleinneed.cz
+--------------------------------------------------------------------------------------------
+ download_idpoor.py
+ VERSION: 1.0.0 - January 5, 2018
+ AUTHOR: Blake Gardiner for People in Need  - blake.gardiner@peopleinneed.cz
 
-# PARAMETERS: Search code for "User Parameters" for areas
-                where input parameters can be configured.
-# DEPENDENCIES:
+# Parameters 
+             -Search code for "User Parameters" for areas
+               where input parameters can be configured.
+# Dependencies
             - Python 3.7 - recommend to also install 'pip package installer'
                            see https://pip.pypa.io/en/stable/installing/
             - 'Requests' for Python - see http://docs.python-requests.org/en/master/ 
                      "pip install requests"
             - 'pyShp' - see https://pypi.python.org/pypi/pyshp 
                      "pip install pyshp"
-# ABOUT:
+# About
 
 
-# LIMITATIONS
+# Limitations
     At this point, the script only works for IDPOOR13 report. Other reports will 
     fail.
 --------------------------------------------------------------------------------------------
-# KNOWN ISSUES
+# Known Issues
   *  Some issue with the shapefile dataset when Khmer text is in the commune name or other
      fields, causes issues with the output dataset, stripping ID's and editing the wrong fields.
      To fix, remove all Khmer text (some may still look like English script, but deleting and
