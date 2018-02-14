@@ -6,13 +6,14 @@ This does not require an ESRI installation or the ArcPy module. PyShp is impleme
 
 --------------------------------------------------------------------------------------------
  
- download_idpoor.py
- VERSION: 1.0.0 - January 5, 2018
- AUTHOR: Blake Gardiner for People in Need  - blake.gardiner@peopleinneed.cz
+ - download_idpoor.py
+ - VERSION: 1.0.0 - January 5, 2018
+ - AUTHOR: Blake Gardiner for People in Need  - blake.gardiner@peopleinneed.cz
 
 # Parameters 
              - Search code for "User Parameters" for areas
                where input parameters can be configured.
+             - For this public repository, all passwords, usernames and URLs have been removed.
 # Dependencies
             - Python 3.7 - recommend to also install 'pip package installer'
                            see https://pip.pypa.io/en/stable/installing/
